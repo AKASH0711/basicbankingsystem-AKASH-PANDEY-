@@ -1,0 +1,11 @@
+.main-index-image{
+    background-image: url(bg-image/about1.png
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin-left: -15px; */
+    height: 300px;
+    
+}

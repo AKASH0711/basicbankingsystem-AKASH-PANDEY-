@@ -1,0 +1,48 @@
+.main-index-image{
+    background-image: url(bg-image/contact.jpg
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin-left: -15px; */
+    height: 300px;
+    
+}
+.contact-cont{
+    display: flex;
+    justify-content: center;
+}
+.contact-box{
+width: 480px;
+height: 300px;
+border-radius: 20px;
+/* border: 1px solid black; */
+box-shadow: 0px 4px 8px 1px black;
+background-image: linear-gradient(to right bottom ,#15aebc,#dedede,#1624afde);
+align-items: center;
+display: flex;
+justify-content: center;
+justify-content:space-evenly;
+}
+.hr{
+    width: 100px;
+    color: #15aebc;
+    border: 1px solid;
+}
+.contact-span-icon{
+font-size: 50px;
+}
+/* .span-h5:{
+    display: none;
+} */
+.contact-span-icon:hover{
+transform: scale(1.05,1.05);
+
+/* .span-h5:hover{
+    display:unset;
+} */
+}
+.span-h5:hover{
+    display:unset;
+}

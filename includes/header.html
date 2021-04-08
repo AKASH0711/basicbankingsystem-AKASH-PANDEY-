@@ -1,0 +1,45 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light " style="box-shadow: 3px 7px 20px; background-color: #8fb0e2;">
+    <div class="container-fluid">
+        <img src="public/css/bg-image/bank-logo.jpg" style="width: 50px; height: 50px;" class="mr-2" alt="">
+        <a class="navbar-brand" href="#">BCB BANK</a>
+        <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-cont01" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown" id="nav_spacing">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="user.php">User Details</a>
+                        <div class="dropdown-divider"></div>
+                        
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact us</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+        <script>
+            $('#navbar-toggler').click(() => {
+                $('#navbarSupportedContent').toggle()
+            })
+        </script>
+
+    </div>
+</nav>
